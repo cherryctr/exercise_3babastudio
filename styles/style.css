@@ -1,0 +1,140 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	font-family: times new roman, helvetica, sans-serif;
+}
+
+body {
+	background-image: url(../images/bg.jpg);
+	background-attachment: fixed;
+}
+
+#wrapper {
+	background-image: url(../images/bgcontainer.jpg);
+	background-repeat: repeat-y;
+	width: 680px;
+	min-height: 600px;
+	margin: auto;
+}
+
+#wrapper #menu {
+	height: 95px;
+	background-image: url(../images/bgcontent.gif);
+	background-repeat: no-repeat;
+	background-size: 632px;
+	background-position: center top;
+}
+
+#wrapper #menu ul {
+	list-style-type: none;
+	margin-left: 65px;
+}
+
+#wrapper #menu ul li {
+	float: left;
+	width: 100px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#wrapper #menu ul li a {
+	line-height: 10px;
+	color: #2F4F4F;
+}
+
+#wrapper #top-image img {
+	width: 80%;
+	margin-left: 60px;
+}
+
+#wrapper #content #paragraph_1 {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#wrapper #content #paragraph_1 h1:first-letter {
+	display: block;
+	float: left;
+	font-size: 2.4em;
+	line-height: 20px;
+}
+
+#wrapper #content #paragraph_1 h2 {
+	font-size: 10px;
+	margin-bottom: 20px;
+}
+
+#wrapper #content #paragraph_tag p {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+	margin-bottom: 15px;
+	color: #444;
+}
+
+#wrapper #content #paragraph_tag img {
+	float: left;
+	margin-right: 10px;
+}
+
+#wrapper #content #paragraph_2 {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#wrapper #content #paragraph_2 h1:first-letter {
+	display: block;
+	float: left;
+	font-size: 2.4em;
+	line-height: 20px;
+}
+
+#wrapper #content #paragraph_2 h2 {
+	font-size: 10px;
+	margin-bottom: 20px;
+}
+
+#wrapper #content #paragraph_tag2 p {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+	margin-bottom: 15px;
+	color: #444;
+}
+
+#wrapper #content #paragraph_tag2 blockquote {
+	background-image: url(../images/quote.gif);
+	background-repeat: no-repeat;
+	color: #555;
+	font: normal 1.4em sans-serif;
+	padding-left: 22px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#wrapper #footer {
+	background-image: url(../images/bgfooter.gif);
+	background-repeat: no-repeat;
+	background-size: 633px;
+	background-position: bottom center;
+}
+
+#wrapper #footer p {
+	line-height: 50px;
+	height: 50px;
+	margin-left: 220px;
+}
+
+.divider {
+	background-image: url(../images/divider.gif);
+	height: 20px;
+	margin: 20px auto;
+	width: 560px;
+}
+
+.container {
+	width: 632px;
+	min-height: 45px;
+	margin: auto;
+}
